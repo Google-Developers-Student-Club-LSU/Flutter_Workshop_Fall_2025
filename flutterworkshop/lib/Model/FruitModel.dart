@@ -11,7 +11,7 @@ class FruitModel {
   required this.image,
   required this.price,
   required this.description,
-});
+}); 
 
 }
 

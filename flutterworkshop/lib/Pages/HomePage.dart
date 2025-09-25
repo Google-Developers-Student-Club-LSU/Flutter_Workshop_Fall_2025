@@ -9,7 +9,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // ✅ This listens to provider updates
     final fruits = Provider.of<FruitProvider>(context).allFruits;
 
     return Scaffold(
